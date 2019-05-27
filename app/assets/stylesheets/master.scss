@@ -1,5 +1,6 @@
 @import "bootstrap";
 
+
 .clear{
   clear: both;
 }
@@ -26,7 +27,7 @@
 
 .slogan{
   font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
-  font-style: italic;
+  font-style: italic;  
   padding-top: 26px;
 }
 
@@ -38,6 +39,7 @@
   color: black;
   font-size: 25px;
   border-bottom: 2px solid #203344;
+  font-family: 'allerregular', sans-serif;
 }
 
 header{
@@ -46,4 +48,14 @@ header{
 
 hr{
   clear: both;
+  hr-weight: 600;
+}
+
+h1{
+  font-family: 'allerbold', sans-serif;
+  font-size: 40px;
+}
+
+h2{
+   font-family: 'aller_lightregular', sans-serif;
 }
