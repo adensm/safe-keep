@@ -38,6 +38,24 @@
     
     <br class="clear" />
     
-    <%= yield %>
+    <div class="container">
+      <%= yield %>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <%= link_to "This isn't enough, I need more", "#", class: 'next-quote' %>
+          </div>
+
+          <div class="col-6 footer-blurb">
+            Created for your advice by <a href="https://adenmengistie.netlify.com/"> Aden Mengistie</a><br />
+          </div>
+
+        </div>
+      </div>
+    </div>
+
   </body>
 </html>
